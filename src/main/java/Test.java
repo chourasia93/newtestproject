@@ -23,7 +23,7 @@ public class Test {
 
             // 1.  //Validation of that 4 foreign Players are present.
             //$.player..country
-            String jsonpathPlayersCountry = "$.player[*].country";
+            String jsonpathPlayersCountry = "$.player[*].country"
 
 
             DocumentContext jsonContext = JsonPath.parse(fileObj);
